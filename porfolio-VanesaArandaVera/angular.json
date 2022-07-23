@@ -23,12 +23,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "porfolio-VanesaArandaVera/node_modules/bootstrap/bootstrap-5.0.1-dist/css/bootstrap.css"
-            ],
-            "scripts": [
-            "porfolio-VanesaArandaVera/node_modules/bootstrap/bootstrap-5.0.1-dist/js/bootstrap.js"
-            ]
+              "src/styles.css"            ],
+            "scripts": []
           },
           "configurations": {
             "production": {
