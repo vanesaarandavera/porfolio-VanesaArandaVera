@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { LogoApComponent } from './logo-ap/logo-ap.component';
 import { SocialComponent } from './social/social.component';
 import { BannerComponent } from './banner/banner.component';
+import { AcercaDeComponent } from './acerca-de/acerca-de.component';
 
 
 
@@ -12,13 +13,14 @@ import { BannerComponent } from './banner/banner.component';
     HeaderComponent,
     LogoApComponent,
     SocialComponent,
-    BannerComponent
+    BannerComponent,
+    AcercaDeComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-  HeaderComponent, LogoApComponent, SocialComponent, BannerComponent
+  HeaderComponent, LogoApComponent, SocialComponent, BannerComponent, AcercaDeComponent
   ]
 })
 export class InicialModule { }
