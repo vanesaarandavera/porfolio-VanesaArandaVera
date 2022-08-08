@@ -8,19 +8,20 @@ import { AcercaDeComponent } from './acerca-de/acerca-de.component';
 
 
 
+
 @NgModule({
   declarations: [
     HeaderComponent,
     LogoApComponent,
     SocialComponent,
     BannerComponent,
-    AcercaDeComponent
+    AcercaDeComponent,
   ],
   imports: [
     CommonModule
   ],
   exports: [
-  HeaderComponent, LogoApComponent, SocialComponent, BannerComponent, AcercaDeComponent
+  HeaderComponent, LogoApComponent, SocialComponent, BannerComponent, AcercaDeComponent, 
   ]
 })
 export class InicialModule { }
