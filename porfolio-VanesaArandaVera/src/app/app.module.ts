@@ -4,8 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ExperienciaModule } from './experiencia/experiencia.module';
-import { ProyectosComponent } from './experiencia/proyectos/proyectos.component';
+
 import { InicialModule } from './inicial/inicial.module';
+import { FooterModule } from './footer/footer.module';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { InicialModule } from './inicial/inicial.module';
     AppRoutingModule,
     ExperienciaModule,
     InicialModule,
+    FooterModule
     ],
   providers: [],
   bootstrap: [AppComponent]
