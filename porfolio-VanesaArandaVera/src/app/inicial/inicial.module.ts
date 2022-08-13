@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { LogoApComponent } from './logo-ap/logo-ap.component';
-import { SocialComponent } from './social/social.component';
 import { BannerComponent } from './banner/banner.component';
 import { AcercaDeComponent } from './acerca-de/acerca-de.component';
 
@@ -13,7 +12,6 @@ import { AcercaDeComponent } from './acerca-de/acerca-de.component';
   declarations: [
     HeaderComponent,
     LogoApComponent,
-    SocialComponent,
     BannerComponent,
     AcercaDeComponent,
   ],
@@ -21,7 +19,7 @@ import { AcercaDeComponent } from './acerca-de/acerca-de.component';
     CommonModule
   ],
   exports: [
-  HeaderComponent, LogoApComponent, SocialComponent, BannerComponent, AcercaDeComponent, 
+  HeaderComponent, LogoApComponent, BannerComponent, AcercaDeComponent, 
   ]
 })
 export class InicialModule { }
